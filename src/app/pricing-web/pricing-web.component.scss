@@ -1,0 +1,20 @@
+/* Define la animación para que el elemento aparezca */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+        /* Desplazamiento inicial más pronunciado */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Aplica la animación a la cuadrícula */
+.grid {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+    /* Aumenta la duración de la animación */
+}
