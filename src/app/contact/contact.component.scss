@@ -13,3 +13,37 @@
 .animate-slide-in-right {
     animation: slideInRight 1s ease-out forwards;
 }
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideInFromLeft 1s ease-out forwards;
+}
+
+/* Aquí está el div con la clase slide-in */
+.w-full.px-8.py-10.mx-auto.overflow-hidden.bg-white.shadow-2xl.rounded-xl.dark\:bg-gray-900.lg\:max-w-xl {
+    /* Aplicando la animación */
+    animation: slideInFromLeft 1s ease-out forwards;
+}
+
+.div-p{
+    background-color:aliceblue;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}

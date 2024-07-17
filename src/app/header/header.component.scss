@@ -11,3 +11,23 @@ nav{
     font-size: 20px;
     letter-spacing: 2px;
 }
+
+a{
+    font-family: 'Poppins';
+}
+
+a:hover{
+    color: #000;
+}
+
+.contact{
+    background-color: #000;
+    color: #FACC15;
+    border: #000;
+}
+
+.contact:hover{
+    background-color: #FACC15;
+    color: #000;
+    border: #000;
+}

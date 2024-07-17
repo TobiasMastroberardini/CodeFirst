@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { PricingWebComponent } from './pricing-web/pricing-web.component';
 import { ServicesComponent } from './services/services.component';
+import { WebComponent } from './web/web.component';
 
 export const routes: Routes = [
     {
@@ -31,6 +32,10 @@ export const routes: Routes = [
     {
         path: 'pricing-web',
         component: PricingWebComponent,
+    },
+    {
+        path: 'web',
+        component: WebComponent,
     },
     {
         path: '**',
